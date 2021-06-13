@@ -9,6 +9,12 @@ var sports = {
     "poland-vs-slovakia" : { "date" : new Date("June 14,2021 22:00:00").getTime(), "flag" : media_url + 'assets/polandVsSlovakia.png' },
     "spain-vs-sweden" : { "date" : new Date("June 15,2021 01:00:00").getTime(), "flag" : media_url + 'assets/spainVsSweden.png' },
     "hungary-vs-portugal" : { "date" : new Date("June 15,2021 22:00:00").getTime(), "flag" : media_url + 'assets/hungaryVsPortugal.png' },
+    "france-vs-germany" : { "date" : new Date("June 16,2021 01:00:00").getTime(), "flag" : media_url + 'assets/franceVsGermany.png' },
+    "finland-vs-russia" : { "date" : new Date("June 16,2021 19:00:00").getTime(), "flag" : media_url + 'assets/finlandVsRussia.png' },
+    "turkey-vs-wales" : { "date" : new Date("June 16,2021 22:00:00").getTime(), "flag" : media_url + 'assets/turkeyVsWales.png' },
+    "italy-vs-switzerland" : { "date" : new Date("June 17,2021 01:00:00").getTime(), "flag" : media_url + 'assets/ItalyVsSwitzerland.png' },
+    "ukraine-vs-northMacedonia" : { "date" : new Date("June 17,2021 19:00:00").getTime(), "flag" : media_url + 'assets/ukraineVsNorthMacedonia.png' },
+    "denmark-vs-belgium" : { "date" : new Date("June 17,2021 22:00:00").getTime(), "flag" : media_url + 'assets/denmarkVsBelgium.png' },
 };
 
 function countdown_runner ( info ) {
