@@ -15,6 +15,9 @@ var sports = {
     "italy-vs-switzerland" : { "date" : new Date("June 17,2021 01:00:00").getTime(), "flag" : media_url + 'assets/ItalyVsSwitzerland.png' },
     "ukraine-vs-northMacedonia" : { "date" : new Date("June 17,2021 19:00:00").getTime(), "flag" : media_url + 'assets/ukraineVsNorthMacedonia.png' },
     "denmark-vs-belgium" : { "date" : new Date("June 17,2021 22:00:00").getTime(), "flag" : media_url + 'assets/denmarkVsBelgium.png' },
+    "netherlands-vs-austria" : { "date" : new Date("June 18,2021 01:00:00").getTime(), "flag" : media_url + 'assets/netherlandsVsAustria.png' },
+    "sweden-vs-slovakia" : { "date" : new Date("June 18,2021 19:00:00").getTime(), "flag" : media_url + 'assets/swedenVsSlovakia.png' },
+    "croatia-vs-czechRepublic" : { "date" : new Date("June 18,2021 22:00:00").getTime(), "flag" : media_url + 'assets/croatiaVsCzechRepublic.png' },
 };
 
 function countdown_runner ( info ) {
