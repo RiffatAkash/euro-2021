@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ad.size" content="width=300,height=250">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> -->
+    <title>Euro 2020 Banner by purplePatch</title>
+    <style>
+        *{margin: 0;padding: 0;box-sizing: border-box;background-size: 100% 100%;background-repeat: no-repeat;user-select: none;}
+        .wrapper{width: 300px;height: 250px;background-image: url("assets/bg.jpg");background-size: 300px 250px;position: relative;cursor: grab;overflow: hidden;}
+        .absolute{position: absolute;}
+        .patch_box{height: 250px;width: 300px;top: 0;left: 0;transition: all 1s ease-in-out;}
+        .patch_countdown {height: 40px;width: 153px;top: 87px;right: 0px;font-size: 22px;color:#FBB917;font-weight: 700;font-family: 'Roboto', sans-serif;text-align: center;line-height: 40px;z-index: 1;}
+        .patch_countdown .day{left: 2px;right: 0;top: 0px;bottom: 0;width: 39px;height: 38px;}
+        .patch_countdown .hour{left: 38px;right: 0;top: 0;bottom: 0;width: 39px;height: 38px;}
+        .patch_countdown .minute{left: 75px;right: 0;top: 0;bottom: 0;width: 38px;height: 38px;}
+        .patch_countdown .second{left: 109px;right: 0;top: 0;bottom: 0;width: 39px;height: 38px;}
+        .patch_title{height: 14px;width: 100px;bottom: 51px;left: 97px;z-index: 2;}
+        .wrapper .box{right: 7px;width: 67px;height: 25px;bottom: 2px;}
+        .wrapper .text{left: 3px;right: 0px;top: 84px; width: 161px; height: 20px;}
+        .wrapper .timerbg{width: 149px;height: 38px;left: 74px;top: 201px;}
+        .wrapper .logo{left:10px;bottom:10px;height: 43px;width: 108px;}
+        .wrapper .product{right: 50px;bottom: 90px;height: 13px;width: 58px;}
+        .country_flag{height: 250px;width: 300px;left: 0px;z-index: 1;bottom: 0px;}
+        @keyframes pulse {
+            0% {transform: scaleX(1)}
+            50% {transform: scale3d(.9, .9, .9)}
+            to {transform: scaleX(1)}
+        }
+        .pulse {animation-name: pulse;animation-duration: 1s;animation-iteration-count: infinite;}
+        @keyframes showZoomIn {
+            from {transform: scale3d(1, .5, .5)}
+            to {transform: scale3d(1, 1, 1)}
+        }
+        .showZoomIn {animation-name: showZoomIn;animation-duration: .5s;animation-fill-mode: both}
+    </style>
+</head>
+<body>
+    <a href="{CLICK_MACRO}" target="_blank">
+        <div class="wrapper">
+            <div class="patch_box absolute">
+                <div class="patch_countdown absolute"> 
+                    <span class="day absolute">00</span>
+                    <span class="hour absolute">00</span>
+                    <span class="minute absolute">00</span>
+                    <span class="second absolute">00</span>
+                 </div>
+                <div class="patch_title absolute"></div>
+                <div class="product pulse absolute"><img src="assets/button.png" alt=""></div>
+                <div class="country_flag showZoomIn absolute"></div>
+            </div>
+        </div>
+    </a>
+<script type="text/javascript" src="countdown.js?v=1.3"></script>
+<script> countdown_runner ( sports['italy-vs-wales'] );</script>
+</body>
+</html>
